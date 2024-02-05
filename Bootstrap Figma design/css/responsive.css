@@ -1,0 +1,254 @@
+@media (max-width: 575.98px) { 
+ 
+    .navbar {
+        padding: 6px 0;
+        top: 0;
+        background: rgba(255, 241, 162, 0.9);
+    }
+
+    /* ================ Navbar ====================== */
+
+    /* ================ Banner ====================== */
+
+    #banner_part .overlay .container h1{
+        max-width: 350px;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 100%;
+    }
+    #banner_part .overlay{
+       
+         padding: 159px 0 104px;
+        
+    }
+
+    #banner_part .overlay .container p{
+        max-width: 321px;
+        font-size: 12px;
+        line-height: 16px;
+        margin: 30px 0 40px;
+    }
+
+    .main_banner_slider ul li button{
+        width: 14px;
+        height: 14px;
+        border: 2px solid transparent;
+    }
+    .custom_btn{
+        font-size: 10px;
+        padding: 2px 22px;
+        border-radius: 10px; 
+    }
+
+
+  /* ================ Banner ====================== */
+
+
+  /* ================ Success ====================== */
+
+  #success_part {
+	padding: 60px 12px 0;
+    }
+
+    #success_part .container .row{
+        flex-direction: column;
+    }
+
+    #success_part .container .left h3 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #success_part .container .left h2 {
+        font-size: 25px;
+        text-align: center;
+        margin: 10px 0 20px;
+    }
+
+    #success_part .container {
+        padding: 30px 15px 40px 15px;
+        border-radius: 10px;
+    }
+
+    #success_part .container .text .item p {
+        font-size: 14px;
+        
+    }
+    #success_part .container .text .item h4 {
+        font-size: 35px;
+    }
+
+    #success_part .container .text {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* ================ Success ====================== */
+
+    /* ================ service_part ====================== */
+
+    #service_part {
+        padding: 60px 12px 15px;
+    }
+    .title h2 {
+        font-size: 25px;
+    }
+
+    .title p {
+        font-size: 12px;
+        line-height: 17px;
+        margin: 10px auto 20px;
+    }
+
+    #service_part .container .row .main img{
+        width: 50px;
+        height: 50px;
+    }
+
+    #service_part .main {
+        padding: 26PX 12PX 26PX;
+        border-radius: 10px;
+        box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.25);
+    }
+
+    #service_part .main:hover{
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+
+    }
+
+    #service_part .main h3 {
+        font-size: 20px;
+        margin: 20px 0 8px;
+    }
+
+    #service_part .main p {
+        font-size: 12px;
+        line-height: 23px;
+    }
+
+    #service_part .container .row {
+        row-gap: 20px;
+    }
+
+
+    /* ================ service_part ====================== */
+
+    /* ================ work_part ====================== */
+
+    #work_part {
+        padding: 60px 0 60px;
+    }
+
+    #work_part .main h3 {
+        font-size: 18px;
+        margin: 20px 0 8px;
+    }
+
+    #work_part .main p {
+        font-size: 13px;
+        line-height: 20px;
+        width: 270px;
+        margin: 0 auto;
+    }
+
+    #work_part .main img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    /* ================ work_part ====================== */
+
+    /* ================ agenc_part ====================== */
+
+    #agenc_part {
+        padding: 60px 0 60px;
+        
+    }
+    #agenc_part .container{
+        background: url(../images/team.jpg) no-repeat center / cover ;
+        position: relative;
+        z-index: 1;
+        
+    }
+
+    #agenc_part .container::after{
+        content: "";
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+    }
+
+    #agenc_part .title h2 {
+        font-size: 22px;
+    }
+
+    #agenc_part .title p {
+        font-size: 12px;
+        line-height: 17px;
+        margin: 10px auto 15px;
+        width: 280px;
+        
+    }
+
+    #agenc_part .container .row .team{
+        display: none;
+    }
+
+    #agenc_part .container  .bottom {
+        margin: 0;
+        display: flex;
+    }
+    #agenc_part .container .row .main .bottom {
+        margin: 5px;
+    }
+    #agenc_part .container .row .main .top {
+        margin: 5px;
+    }
+
+    #agenc_part .container .top {
+        margin: 0;
+        display: flex;
+    }
+
+    #agenc_part .container .row .main .top .text p {
+        font-size: 12px;
+        line-height: 15px;
+        color: rgb(209, 209, 209);
+    }
+
+    #agenc_part .container .top img{
+        width: 80px;
+        height: 80px;
+    }
+    #agenc_part .container .bottom {
+        margin: 10px 0;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #agenc_part .container .row .main .bottom .text p {
+        font-size: 12px;
+        line-height: 15px;
+        color: rgb(209, 209, 209);
+    }
+
+    #agenc_part .container .bottom img{
+        width: 80px;
+        height: 80px;
+    }
+
+    #agenc_part .container .row .main .top .text h3 {
+        font-size: 20px;
+        color: rgb(209, 209, 209);
+    }
+    #agenc_part .container .row .main .bottom .text h3 {
+        font-size: 20px;
+        color: rgb(209, 209, 209);
+    }
+
+}
+
